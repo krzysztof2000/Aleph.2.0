@@ -3,10 +3,13 @@
 +  Założenia projektowe ALEPH 2.0
 +Projekt złożony jest z dwóch części serwer oraz klient . Część odpowiedzialną za aplikacje klienta odpowiedzialny jest Krzysztof Cichy, natomiast obsługa serwera Marcin Adamczyk.
 +Zadaniem części serwerowej jest: 
-+- zawieranie i zarządzanie książkami (dodawanie, usuwanie) 
-+- zarządzanie użytkownikami (dodawanie, usuwanie)
++- zawieranie i zarządzanie książkami (dodawanie, usuwanie,wypożyczanie) 
++- zarządzanie użytkownikami (dodawanie, usuwanie,edycja parametrów)
 +- weryfikacja podczas logowania
 +- komunikacja sieciowa z aplikacją klienta
 +Część klienta zawiera: 
 +-możliwość logowania do systemu ALEPH2.0 jako zwykły użytkownik ( komunikacja sieciowa z serwerem) 
-+-zarządzanie kontem ( wypożyczanie, oddawanie)
++-zarządzanie kontem ( zmiana hasła)
++-dodawanie propozycji poszerzenia zbioru
++-wyświetlanie zbioru
++-wypożyczanie oraz oddawanie książek
